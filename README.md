@@ -1,3 +1,3 @@
 # Sphumelele-Expense-Tracker
 
-[LINK] (https://github.com/The-DigitalAcademy/Sphumelele-Expense-Tracker.git)
+[LINK] (https://the-digitalacademy.github.io/Sphumelele-Expense-Tracker/)
