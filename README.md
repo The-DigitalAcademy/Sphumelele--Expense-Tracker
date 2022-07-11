@@ -1,2 +1,1 @@
-# Expense-Trackeer
-# Sphumelele--Expense-Tracker
+# Sphumelele-Expense-Trackeer
