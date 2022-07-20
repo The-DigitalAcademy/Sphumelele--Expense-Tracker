@@ -23,3 +23,15 @@ function addTransaction(e) {
             id: generateID(),
             text: text.value,
             amount: +amount.value
+        };
+
+        transactions.push(transaction);
+
+        addTransactionDOM(transaction);
+
+        updateValues()
+
+        updateLocalStorage()
+
+        text.value = ''
+        amount.value = ''
