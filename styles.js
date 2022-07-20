@@ -42,3 +42,12 @@ function addTransaction(e) {
 function generateID() {
     return Math.floor(Math.random() * 100000000);
 }
+//Add transactions to DOM list
+function addTransactionDOM(transaction) {
+    //get sign
+    const sign = transaction.amount < 0 ? '-' : '+';
+
+    const item = document.createElement('li');
+
+    // Add class based on value
+    item.classList.add(transaction.amount < 0 ? 'minus' : 'plus');
