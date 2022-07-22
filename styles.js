@@ -87,7 +87,17 @@ function removeTransaction(id) {
     init();
 
 }
-/update local storage transactions
+//update local storage transactions
 function updateLocalStorage() {
     localStorage.setItem('transactions', JSON.stringify(transactions));
 }
+//Init app
+function init() {
+    list.innerHTML = '';
+
+    transactions.forEach(addTransactionDOM);
+    updateValues()
+}
+
+init();
+form.addEventListener('submit', addTransaction);
