@@ -21,4 +21,18 @@ body {
     align-items: center;
     flex-direction: column;
     
+    
+}
+
+    table, th, td {
+        border: 1px solid rgb(151, 151, 164);
+        border-collapse: collapse;
+      }
+      th, td {
+        background-color: #e6f2e8;
+      }
+
+table{
+    margin-left: 100px;
+    padding: 2px;
 }

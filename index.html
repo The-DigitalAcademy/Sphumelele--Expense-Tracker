@@ -14,30 +14,42 @@
       <h2>Expense Tracker</h2>
     <div class="container">
       <h4>Your Balance</h4>
-      <h1 id="balance">R0.00</h1>
+      <h1 id="balancetotal">R0.00</h1>
 
       <div class="inc-exp-container">
         <div>
           <h4>Income</h4>
-          <p id="money-plus" class="money plus">+R0.00</p>
+          <p id="moneyplus" class="money plus">+R0.00</p>
         </div>
         <div>
           <h4>Expense</h4>
-          <p id="money-minus" class="money minus">-R0.00</p>
+          <p id="moneyminus" class="money minus">-R0.00</p>
         </div>
       </div>
 
       <h3>History</h3>
-      <ul id="list" class="list">
-        <!-- <li class="minus">
-          Cash <span>-$400</span><button class="delete-btn">x</button>
-        </li> -->
-      </ul>
-      <ul id="list" class="list">
-        <!-- <li class="minus">
-          Cash <span>-$400</span><button class="delete-btn">x</button>
-        </li> -->
-      </ul>
+        <table id="tabledata">
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+          <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+          </tr>
+      </table>
+        
+
+        
+
+      </ol>
 
       <h3>Add new transaction</h3>
       <form id="form">
@@ -50,7 +62,7 @@
           >
           <input type="number" id="amount" placeholder="Enter amount..." />
         </div>
-        <button class="btn">Add transaction</button>
+        <button class="btn" onclick="addTransaction()">Add transaction</button>
       </form>
     </div>
 
